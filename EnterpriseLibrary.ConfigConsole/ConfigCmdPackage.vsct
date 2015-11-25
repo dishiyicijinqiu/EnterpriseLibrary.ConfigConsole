@@ -7,12 +7,12 @@
       <Group guid="guidConfigCmdPackageCmdSet" id="ItemMenuGroup" priority="0x0600">
         <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE"/>
       </Group>
-      <Group guid="guidConfigCmdPackageCmdSet" id="ProjectMenuGroup" priority="0x0600">
+      <!--<Group guid="guidConfigCmdPackageCmdSet" id="ProjectMenuGroup" priority="0x0600">
         <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_PROJNODE"/>
       </Group>
       <Group guid="guidConfigCmdPackageCmdSet" id="SolutionMenuGroup" priority="0x0600">
         <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_SOLNNODE"/>
-      </Group>
+      </Group>-->
     </Groups>
     <Buttons>
       <Button guid="guidConfigCmdPackageCmdSet" id="ConfigCmdId" priority="0"  type="Button">
@@ -23,7 +23,7 @@
           <CommandName>EntLibConfig</CommandName>
         </Strings>
       </Button>
-      <Button guid="guidConfigCmdPackageCmdSet" id="ProjectConfigCmdId" priority="0"  type="Button">
+      <!--<Button guid="guidConfigCmdPackageCmdSet" id="ProjectConfigCmdId" priority="0"  type="Button">
         <Parent guid="guidConfigCmdPackageCmdSet" id="ProjectMenuGroup" />
         <Strings>
           <ButtonText>使用EntLibConfig编辑</ButtonText>
@@ -36,7 +36,7 @@
           <ButtonText>使用EntLibConfig编辑</ButtonText>
           <CommandName>EntLibConfig</CommandName>
         </Strings>
-      </Button>
+      </Button>-->
     </Buttons>
   </Commands>
 
@@ -46,11 +46,11 @@
     <!-- This is the guid used to group the menu commands together -->
     <GuidSymbol name="guidConfigCmdPackageCmdSet" value="{50013d8f-6901-49c0-8ebf-0e48dfae7356}">
       <IDSymbol name="ItemMenuGroup" value="0x1020" />
-      <IDSymbol name="ProjectMenuGroup" value="0x1021" />
-      <IDSymbol name="SolutionMenuGroup" value="0x1022" />
+      <!--<IDSymbol name="ProjectMenuGroup" value="0x1021" />
+      <IDSymbol name="SolutionMenuGroup" value="0x1022" />-->
       <IDSymbol name="ConfigCmdId" value="0x0100" />
-      <IDSymbol name="ProjectConfigCmdId" value="0x0101" />
-      <IDSymbol name="SolutionConfigCmdId" value="0x0102" />
+      <!--<IDSymbol name="ProjectConfigCmdId" value="0x0101" />
+      <IDSymbol name="SolutionConfigCmdId" value="0x0102" />-->
     </GuidSymbol>
   </Symbols>
 </CommandTable>

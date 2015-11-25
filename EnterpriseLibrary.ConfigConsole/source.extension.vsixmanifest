@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="EnterpriseLibrary.ConfigConsole.V5.VS2015.Company.3649a89d-2119-482b-a92d-812cc2afc688" Version="1.0" Language="en-US" Publisher="Company" />
-    <DisplayName>EnterpriseLibrary.ConfigConsole.V5.VS2015</DisplayName>
+    <Identity Id="EnterpriseLibrary.ConfigConsole.Company.3649a89d-2119-482b-a92d-812cc2afc688" Version="1.0" Language="en-US" Publisher="第十一次进球" />
+    <DisplayName>EnterpriseLibrary.ConfigConsole</DisplayName>
     <Description>Empty VSIX Project.</Description>
   </Metadata>
   <Installation>
